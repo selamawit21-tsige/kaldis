@@ -1,0 +1,283 @@
+[
+  {
+    "id": 1,
+    "name": "Bole (Flagship)",
+    "location": "Near Edna Mall, Addis Ababa",
+    "hours": "6:00 AM - 10:00 PM",
+    "features": "Walk-in / Dine-In",
+    "phone": "+251-911-123-401",
+    "icon": "fa-star",
+    "isHQ": false
+  },
+  {
+    "id": 2,
+    "name": "Sarbet Headquarters",
+    "location": "Adams Pavilion, Roosevelt St., Addis Ababa",
+    "hours": "8:00 AM - 6:00 PM",
+    "features": "Corporate & Support",
+    "phone": "+251-911-123-402",
+    "icon": "fa-crown",
+    "isHQ": true
+  },
+  {
+    "id": 3,
+    "name": "Piassa Branch",
+    "location": "Central Piassa, Addis Ababa",
+    "hours": "6:30 AM - 9:00 PM",
+    "features": "Community Hub",
+    "phone": "+251-911-123-403",
+    "icon": "fa-city"
+  },
+  {
+    "id": 4,
+    "name": "Bishoftu Branch",
+    "location": "Bishoftu Town (45km from Addis)",
+    "hours": "7:00 AM - 8:30 PM",
+    "features": "Weekend Destination",
+    "phone": "+251-911-123-404",
+    "icon": "fa-tree"
+  },
+  {
+    "id": 5,
+    "name": "Nifas Silk Branch",
+    "location": "Nifas Silk District",
+    "hours": "7:00 AM - 8:30 PM",
+    "features": "WiFi Available",
+    "phone": "+251-911-123-405",
+    "icon": "fa-coffee"
+  },
+  {
+    "id": 6,
+    "name": "Bole Medhanealem Branch",
+    "location": "Bole Medhanealem",
+    "hours": "6:15 AM - 9:30 PM",
+    "features": "Events & Meetings",
+    "phone": "+251-911-123-406",
+    "icon": "fa-store"
+  },
+  {
+    "id": 7,
+    "name": "Kazanchis Branch",
+    "location": "Kazanchis, Addis Ababa",
+    "hours": "6:00 AM - 9:00 PM",
+    "features": "Modern Interior",
+    "phone": "+251-911-123-407",
+    "icon": "fa-mug-hot"
+  },
+  {
+    "id": 8,
+    "name": "CMC Branch",
+    "location": "CMC Commercial Center",
+    "hours": "7:00 AM - 8:00 PM",
+    "features": "Business District",
+    "phone": "+251-911-123-408",
+    "icon": "fa-briefcase"
+  },
+  {
+    "id": 9,
+    "name": "Gerji Branch",
+    "location": "Gerji, Addis Ababa",
+    "hours": "6:30 AM - 8:30 PM",
+    "features": "Cozy Atmosphere",
+    "phone": "+251-911-123-409",
+    "icon": "fa-sofa"
+  },
+  {
+    "id": 10,
+    "name": "Dire Dawa Branch",
+    "location": "Dire Dawa City",
+    "hours": "6:00 AM - 9:00 PM",
+    "features": "Regional Hub",
+    "phone": "+251-911-123-410",
+    "icon": "fa-globe"
+  },
+  {
+    "id": 11,
+    "name": "Adama Branch",
+    "location": "Adama, Oromia Region",
+    "hours": "6:30 AM - 8:30 PM",
+    "features": "Growing Expansion",
+    "phone": "+251-911-123-411",
+    "icon": "fa-leaf"
+  },
+  {
+    "id": 12,
+    "name": "Hawassa Branch",
+    "location": "Hawassa, SNNP Region",
+    "hours": "7:00 AM - 8:00 PM",
+    "features": "Southern Presence",
+    "phone": "+251-911-123-412",
+    "icon": "fa-sun"
+  },
+  {
+    "id": 13,
+    "name": "Bahir Dar Branch",
+    "location": "Bahir Dar, Amhara Region",
+    "hours": "6:00 AM - 8:30 PM",
+    "features": "Lakeside Café",
+    "phone": "+251-911-123-413",
+    "icon": "fa-water"
+  },
+  {
+    "id": 14,
+    "name": "Mekelle Branch",
+    "location": "Mekelle, Tigray Region",
+    "hours": "6:30 AM - 8:00 PM",
+    "features": "Northern Hub",
+    "phone": "+251-911-123-414",
+    "icon": "fa-mountain"
+  },
+  {
+    "id": 15,
+    "name": "Arba Minch Branch",
+    "location": "Arba Minch, SNNP Region",
+    "hours": "7:00 AM - 8:00 PM",
+    "features": "Tourist Destination",
+    "phone": "+251-911-123-415",
+    "icon": "fa-camera"
+  },
+  {
+    "id": 16,
+    "name": "Jima Branch",
+    "location": "Jima, Oromia Region",
+    "hours": "6:00 AM - 9:00 PM",
+    "features": "Coffee Heartland",
+    "phone": "+251-911-123-416",
+    "icon": "fa-leaf"
+  },
+  {
+    "id": 17,
+    "name": "Deber Berhan Branch",
+    "location": "Deber Berhan, Amhara Region",
+    "hours": "6:30 AM - 8:00 PM",
+    "features": "Mountain Town",
+    "phone": "+251-911-123-417",
+    "icon": "fa-mountain"
+  },
+  {
+    "id": 18,
+    "name": "Shashamane Branch",
+    "location": "Shashamane, Oromia Region",
+    "hours": "7:00 AM - 8:30 PM",
+    "features": "Transit Hub",
+    "phone": "+251-911-123-418",
+    "icon": "fa-road"
+  },
+  {
+    "id": 19,
+    "name": "Asela Branch",
+    "location": "Asela, Oromia Region",
+    "hours": "6:30 AM - 8:00 PM",
+    "features": "Highlands Location",
+    "phone": "+251-911-123-419",
+    "icon": "fa-mountain"
+  },
+  {
+    "id": 20,
+    "name": "Addis Alem Branch",
+    "location": "Addis Alem, Addis Ababa",
+    "hours": "6:00 AM - 9:00 PM",
+    "features": "Suburban Café",
+    "phone": "+251-911-123-420",
+    "icon": "fa-home"
+  },
+  {
+    "id": 21,
+    "name": "Megenagna Branch",
+    "location": "Megenagna, Addis Ababa",
+    "hours": "6:30 AM - 8:30 PM",
+    "features": "Shopping District",
+    "phone": "+251-911-123-421",
+    "icon": "fa-shopping-bag"
+  },
+  {
+    "id": 22,
+    "name": "Bambis Branch",
+    "location": "Bambis, Addis Ababa",
+    "hours": "7:00 AM - 8:00 PM",
+    "features": "Quiet Retreat",
+    "phone": "+251-911-123-422",
+    "icon": "fa-leaf"
+  },
+  {
+    "id": 23,
+    "name": "Congo Square Branch",
+    "location": "Congo Square, Addis Ababa",
+    "hours": "6:00 AM - 9:00 PM",
+    "features": "Trendy Spot",
+    "phone": "+251-911-123-423",
+    "icon": "fa-palette"
+  },
+  {
+    "id": 24,
+    "name": "Summit Mall Branch",
+    "location": "Summit Mall, Addis Ababa",
+    "hours": "10:00 AM - 10:00 PM",
+    "features": "Shopping Experience",
+    "phone": "+251-911-123-424",
+    "icon": "fa-building"
+  },
+  {
+    "id": 25,
+    "name": "Atakilt Square Branch",
+    "location": "Atakilt Square, Addis Ababa",
+    "hours": "6:30 AM - 9:00 PM",
+    "features": "City Center",
+    "phone": "+251-911-123-425",
+    "icon": "fa-city"
+  },
+  {
+    "id": 26,
+    "name": "Meskel Square Branch",
+    "location": "Meskel Square, Addis Ababa",
+    "hours": "6:00 AM - 9:30 PM",
+    "features": "Historic Area",
+    "phone": "+251-911-123-426",
+    "icon": "fa-landmark"
+  },
+  {
+    "id": 27,
+    "name": "Sebategna Branch",
+    "location": "Sebategna, Addis Ababa",
+    "hours": "7:00 AM - 8:00 PM",
+    "features": "Residential Zone",
+    "phone": "+251-911-123-427",
+    "icon": "fa-home"
+  },
+  {
+    "id": 28,
+    "name": "Kolfe Branch",
+    "location": "Kolfe, Addis Ababa",
+    "hours": "6:30 AM - 8:30 PM",
+    "features": "Industrial Area",
+    "phone": "+251-911-123-428",
+    "icon": "fa-industry"
+  },
+  {
+    "id": 29,
+    "name": "Gulele Branch",
+    "location": "Gulele, Addis Ababa",
+    "hours": "6:00 AM - 9:00 PM",
+    "features": "Expanding Location",
+    "phone": "+251-911-123-429",
+    "icon": "fa-store"
+  },
+  {
+    "id": 30,
+    "name": "Yeka Branch",
+    "location": "Yeka, Addis Ababa",
+    "hours": "6:30 AM - 8:30 PM",
+    "features": "East Side Hub",
+    "phone": "+251-911-123-430",
+    "icon": "fa-coffee"
+  },
+  {
+    "id": 31,
+    "name": "Goro Road Branch",
+    "location": "Goro Road, Addis Ababa",
+    "hours": "7:00 AM - 8:00 PM",
+    "features": "Modern Venue",
+    "phone": "+251-911-123-431",
+    "icon": "fa-building"
+  }
+]

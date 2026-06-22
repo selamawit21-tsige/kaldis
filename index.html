@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaldi's Coffee | The Authentic Taste of Ethiopia</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <meta name="description" content="Kaldi's Coffee — premium Ethiopian coffee, community cafes, and locally sourced beans. Visit us for authentic flavor and handcrafted espresso.">
+        <meta name="keywords" content="Ethiopian coffee, Kaldi's Coffee, specialty coffee, espresso, Yirgacheffe">
+        <meta property="og:title" content="Kaldi's Coffee | The Authentic Taste of Ethiopia">
+        <meta property="og:description" content="Premium Ethiopian coffee, community cafes, and locally sourced beans.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="assets/images/kaldis.jpg">
+        <link rel="preload" as="image" href="assets/images/logo.jpg">
+        <link rel="preload" as="image" href="assets/images/founder.jpg">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Kaldi's Coffee",
+            "url": "",
+            "logo": "assets/images/logo.jpg",
+            "founder": {
+                "@type": "Person",
+                "name": "Tseday Asrat"
+            }
+        }
+        </script>
+    
+    
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo-area">
+                <img src="assets/images/logo.jpg" alt="Kaldi's Coffee logo" class="logo-img">
+                <span>KALDI'S COFFEE</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#story">Our Story</a>
+                <a href="#menu">Menu</a>
+                <a href="#locations">Locations</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <video autoplay muted loop>
+            <source src="assets/images/video21.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content" style="position: relative; z-index: 3;">
+            <h1>The Authentic Taste of Ethiopia</h1>
+            <p>Sourcing premium, high-grade local beans to fuse modern espresso culture with historic coffee traditions.</p>
+            <div style="display: flex; justify-content: center; gap: 15px;">
+                <a href="#menu" class="btn">Explore Menu</a>
+                <a href="#locations" class="btn btn-outline">Find a Café</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="container">
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>A Legacy Crafted Over 21 Years</h3>
+                <p>Founded by Tseday Asrat and Elias Ketema in 2005, Kaldi's Coffee opened its very first storefront near Edna Mall in the vibrant Bole district of Addis Ababa. What began as a single ambitious café has flourished into a beloved national icon.</p>
+                <p>Our identity honors Ethiopian history. We take our name from Kaldi, the legendary 9th-century Ethiopian herder who famously discovered the invigorating properties of coffee beans when his goats began dancing after eating them.</p>
+                <div class="about-stats">
+                    <div class="stat-item" onclick="openBranchesModal()">
+                        <span class="stat-number clickable">30+</span>
+                        <span class="stat-label">Locations</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2005</span>
+                        <span class="stat-label">Established</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="assets/images/kaldis.jpg" alt="Kaldi's Cafe Atmosphere">
+            </div>
+        </div>
+    </section>
+
+    <section id="founder" class="container founder-section">
+        <div class="founder-photo">
+            <img src="assets/images/tsednya.jpg" alt="Founder portrait of Kaldi's Coffee">
+        </div>
+        <div class="founder-info">
+            <h3>Meet the Founder — Tseday Asrat</h3>
+            <p>With deep roots in Ethiopian coffee traditions, Tseday founded Kaldi's Coffee in 2005 to celebrate and share authentic flavors and community-focused cafés.</p>
+            <p><strong>Position:</strong> Founder &amp; CEO</p>
+            <p><strong>Vision:</strong> Share premium Ethiopian coffee culture globally while supporting local growers.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-bg">
+        <div class="container">
+            <h2 class="section-title">Menu Highlights</h2>
+            <p class="section-subtitle">Crafted with premium local roasts, including exceptional Yirgacheffe beans.</p>
+            
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-img" style="background-image: url('coffee.jpg');"></div>
+                    <h4>Macchiatos & Lattes</h4>
+                    <p>Perfectly pulled macchiatos, lattes, cappuccinos, and robust Americanos built to fuel your day.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=500');"></div>
+                    <h4>Freshly Roasted Beans</h4>
+                    <p>Take the authentic taste home with beautifully packaged, locally grown whole beans and custom grinds.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-img" style="background-image: url('cake.jpg');"></div>
+                    <h4>Pastries & Baked Goods</h4>
+                    <p>Delectable croissants, artistic artisan cakes, and traditional baked items prepared fresh daily.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-img" style="background-image: url('burger.jpg');"></div>
+                    <h4>Burgers & Sandwiches</h4>
+                    <p>Satisfying breakfast spreads, gourmet sandwiches, and quick savory bites perfect for dining in.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="locations" class="container">
+        <h2 class="section-title">Our Flagship Hubs</h2>
+        <p class="section-subtitle">Spreading across Addis Ababa and expanding out into vibrant regional towns.</p>
+        
+        <div class="locations-grid">
+            <div class="location-card">
+                <h4><i class="fa-solid fa-star"></i> Bole (Flagship)</h4>
+                <div class="location-details">
+                    <p><i class="fa-solid fa-location-dot"></i> Near Edna Mall, Addis Ababa</p>
+                    <p><i class="fa-solid fa-clock"></i> 6:00 AM - 10:00 PM</p>
+                    <p><i class="fa-solid fa-bell"></i> Walk-in / Dine-In</p>
+                </div>
+            </div>
+            <div class="location-card">
+                <h4><i class="fa-solid fa-building"></i> Sarbet (HQ)</h4>
+                <div class="location-details">
+                    <p><i class="fa-solid fa-location-dot"></i> Adams Pavilion, Roosevelt St.</p>
+                    <p><i class="fa-solid fa-phone"></i> Central Administration Line</p>
+                    <p><i class="fa-solid fa-briefcase"></i> Corporate & Support</p>
+                </div>
+            </div>
+            <div class="location-card">
+                <h4><i class="fa-solid fa-city"></i> Piassa Branch</h4>
+                <div class="location-details">
+                    <p><i class="fa-solid fa-location-dot"></i> Central Piassa, Addis Ababa</p>
+                    <p><i class="fa-solid fa-clock"></i> 6:30 AM - 9:00 PM</p>
+                    <p><i class="fa-solid fa-mug-hot"></i> Community Hub</p>
+                </div>
+            </div>
+            <div class="location-card">
+                <h4><i class="fa-solid fa-tree"></i> Bishoftu Branch</h4>
+                <div class="location-details">
+                    <p><i class="fa-solid fa-location-dot"></i> Bishoftu Town (45km outside Addis)</p>
+                    <p><i class="fa-solid fa-umbrella-beach"></i> Weekend Destination</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Regional Expansion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-bg">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions about franchising, careers, or events? Send us a message.</p>
+            
+            <div class="contact-container">
+                <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you! This demonstration form has been submitted.');">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" rows="5" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h5>Kaldi's Coffee</h5>
+                <p>Bringing premium Ethiopian coffee culture to the modern world while staying fiercely true to our historic homegrown roots.</p>
+            </div>
+            <div class="footer-col">
+                <h5>Headquarters</h5>
+                <p>Adams Pavilion Building</p>
+                <p>Sarbet, Roosevelt St.</p>
+                <p>Addis Ababa, Ethiopia</p>
+            </div>
+            <div class="footer-col">
+                <h5>Follow the Journey</h5>
+                <p>Stay up to date with new store openings, menu drops, and community events.</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kaldi's Coffee. Crafted for community. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Branches Modal -->
+    <div id="branchesModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>All Kaldi's Coffee Branches</h2>
+                <button class="modal-close" onclick="closeBranchesModal()">&times;</button>
+            </div>
+            <div class="branches-grid" id="branchesContainer">
+                <!-- Branches loaded from branches.json -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load branches from JSON
+        async function loadBranches() {
+            try {
+                const response = await fetch('assets/data/branches.json');
+                const branches = await response.json();
+                const container = document.getElementById('branchesContainer');
+                
+                container.innerHTML = ''; // Clear existing content
+                
+                branches.forEach(branch => {
+                    const branchEl = document.createElement('div');
+                    branchEl.className = branch.isHQ ? 'branch-item hq-branch' : 'branch-item';
+                    
+                    const hqLabel = branch.isHQ ? '<i class="fa-solid fa-crown hq-icon"></i> ' : '';
+                    
+                    branchEl.innerHTML = `
+                        <div class="branch-name">${hqLabel}<i class="fa-solid ${branch.icon}"></i> ${branch.name}</div>
+                        <div class="branch-detail"><i class="fa-solid fa-location-dot"></i> ${branch.location}</div>
+                        <div class="branch-detail"><i class="fa-solid fa-clock"></i> ${branch.hours}</div>
+                        <div class="branch-detail"><i class="fa-solid fa-info-circle"></i> ${branch.features}</div>
+                        <div class="branch-detail"><i class="fa-solid fa-phone"></i> ${branch.phone}</div>
+                    `;
+                    
+                    container.appendChild(branchEl);
+                });
+            } catch (error) {
+                console.error('Error loading branches:', error);
+                document.getElementById('branchesContainer').innerHTML = '<p style="color: #d32f2f;">Error loading branches. Please refresh the page.</p>';
+            }
+        }
+        
+        function openBranchesModal() {
+            loadBranches();
+            document.getElementById('branchesModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeBranchesModal() {
+            document.getElementById('branchesModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Close modal when clicking outside the content
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('branchesModal');
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        closeBranchesModal();
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
